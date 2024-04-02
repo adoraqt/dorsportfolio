@@ -1,0 +1,151 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    background-color: #f3dcd4;
+}
+
+.header{
+    display: flex;
+    justify-content: left;
+    padding-left: 1rem;
+    padding-top: 1.5rem;
+    padding-bottom: 2rem;
+    gap: 80px;
+    background-color: #ecc9c7; 
+    font-weight: bold;
+    font-size: 1.5rem;
+    font-family: sans-serif;
+}
+
+a, li{
+    text-decoration: none;
+    list-style: none;
+    background-color: #ecc9c7;
+    color: black;
+}
+
+.sectionOne{
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    gap: 100px;
+    margin-left: 30%;
+    margin-top: -10%;  
+  
+}
+.img {
+    max-width: 50%;
+    height: auto;
+    border-radius: 8px;
+   
+}
+
+  
+    
+.info {
+    width: 400px;
+}
+
+.info :is(h1,p) {
+    margin-bottom: 15px;
+}
+
+.info h1 {
+    font-size: 3rem;
+    color: darkslategray;
+}
+
+.info p {
+    font-size: 20px;
+}
+
+.info button{
+    padding: 7px;
+    border-radius: 13px;
+    background-color:pink ;  
+    color:brown ;
+    font-size: 1.2rem;
+}
+
+.sectionTwo {
+    height: 100hv;
+    margin-top: -10%;
+}
+
+.sectionTwo h1{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.container p {
+    width: 400px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+}
+
+.container button {
+    padding: 7px;
+    background-color:pink;  
+    color:brown ;
+    font-size: 1rem;
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.sectionTwo img {
+    border-radius: 20px;
+    border: 2px solid rgb(226, 157, 168);
+}
+
+.p1{
+    padding: 10px ;
+    border-radius: 20px;
+    margin-bottom: 30px;
+}
+
+button {
+    transition: all .8s ease ;
+    border-radius: 10px;
+}
+
+.sectionTwo img{
+    width: 385px;
+    height: 300px;
+}
+
+.sectionTwo h1{
+    color:darkslategray;
+    font-size: 3rem;
+    padding-bottom: 20px;
+}
+ul {
+    
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: lightcoral    ;
+  }
+  
+  li {
+    float: left;
+   
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 56px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: brown;
+  }
